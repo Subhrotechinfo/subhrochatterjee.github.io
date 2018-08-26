@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<meta charset="utf-8">
 
 	<meta name="keywords" content="Portfolio, Free Template, Free Portfolio" />
 	<meta name="description" content="Subhro Chatterjee,Portfolio,Softwate Developer">
 	<meta name="author" content="Subhro Chatterjee">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Subhro Chatterjee</title>
 	<!-- favicon  -->
 	<link rel="icon" href="" type="image/jpg" sizes="16x16">
 	<!-- Latest compiled and minified CSS -->
@@ -20,18 +22,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300" rel="stylesheet">
 
-
-
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<title>Subhro Chatterjee</title>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="assets/css/main.css">
 
 	<style type="text/css">
-		.prog{
-			padding:20px 0 0 0 ;
-		}
+		
 	</style>
 </head>
 <body style="font-family:'Nunito Sans', sans-serif;">
@@ -69,13 +68,27 @@
 					</ul>
 				</div>
 			</nav>
-
 			<!-- landing page  -->
-			<div class="container" id="landingHead">
-				 <h1 class="display-4">|| GracefulLife ||</h1>
-				 <canvas id="GracefulLife" width="1080" height="650"></canvas>
-				 <canvas id="arrow" width="1080" height="650"></canvas>
-
+			<div class="container-fluid " id="landingHead">
+				 <!-- <canvas id="GracefulLife" width="1080" height="650"></canvas>
+				 <canvas id="arrow" width="1080" height="650"></canvas> -->
+				 <div class="left">
+				 	 Hello Universe
+				 </div>
+				 <div class="middle">
+				 	I'm a Full Stack Software Engineer.
+				 </div>
+				 <div class="right">
+				 	Subhro Chatterjee
+				 </div>
+				 <img src="assets/images/edit2.jpg" class="img-fluid mx-auto d-block" alt="" height="500" width="300">
+				 <div class="text-center" style="padding: 40 0 20 0">
+				 	<a href="">
+				 		<i class="fas fa-chevron-circle-down" style="font-size: 40px;"></i>	
+				 	</a>
+				 		
+				 </div>
+				 
 			</div>
 
  			<!-- About Section	  -->
@@ -94,68 +107,68 @@
 					<div class="col-md-6 row">
 						<!-- Html5/CSS3/Javascript -->
 						 <div class="col-sm-3">
-							<i class="fab fa-html5" style="font-size: 60px;"></i>
-							<i class="fab fa-css3-alt" style="font-size: 30px;"></i>
-							<i class="fab fa-js" style="font-size: 20px;"></i>
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-css3-alt"></i>
+							<i class="fab fa-js"></i>
 						 </div>
 						<div class="col-sm-9 prog">
 							<div class="progress">
-  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:90%;"></div>
+  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" id="progressBar1"></div>
 							</div>
 						</div>
 					</div>
 					<!-- Angular -->
 					<div class="col-md-6 row">
 						 <div class="col-sm-3">
-							<i class="fab fa-angular" style="font-size: 60px;"></i>
+							<i class="fab fa-angular"></i>
 						 </div>
 						<div class="col-sm-9 prog" >
 							<div class="progress">
-  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:70%;"></div>
+  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" id="progressBar2"></div>
 							</div>
 						</div>
 					</div>
 					<!-- Java -->
 					<div class="col-md-6 row">
 						 <div class="col-sm-3">
-							<i class="fab fa-java" style="font-size: 60px;"></i>
+							<i class="fab fa-java"></i>
 						 </div>
 						<div class="col-sm-9 prog" >
 							<div class="progress">
-  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:90%;"></div>
+  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" id="progressBar3"></div>
 							</div>
 						</div>
 					</div>
 					<!-- Python -->
 					<div class="col-md-6 row">
 						 <div class="col-sm-3">
-							<i class="fab fa-python" style="font-size: 60px;"></i>
+							<i class="fab fa-python"></i>
 						 </div>
 						<div class="col-sm-9 prog" >
 							<div class="progress">
-  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:50%;"></div>
+  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" id="progressBar4"></div>
 							</div>
 						</div>
 					</div>
 					<!-- nodejs -->
 					<div class="col-md-6 row">
 						 <div class="col-sm-3">
-							<i class="fab fa-node" style="font-size: 60px;"></i>
+							<i class="fab fa-node"></i>
 						 </div>
 						<div class="col-sm-9 prog" >
 							<div class="progress">
-  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:70%;"></div>
+  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" id="progressBar5"></div>
 							</div>
 						</div>
 					</div>
 					<!-- AWS  -->
 					<div class="col-md-6 row">
 						 <div class="col-sm-3">
-							<i class="fab fa-aws" style="font-size: 60px;"></i>
+							<i class="fab fa-aws"></i>
 						 </div>
 						<div class="col-sm-9 prog" >
 							<div class="progress">
-  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:50%;"></div>
+  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" id="progressBar6"></div>
 							</div>
 						</div>
 					</div>
@@ -167,22 +180,22 @@
 						<!-- Git -->
 						<div class="col-md-6 row">
 							 <div class="col-sm-3">
-								<i class="fab fa-git" style="font-size: 60px;"></i>
+								<i class="fab fa-git"></i>
 							 </div>
 							<div class="col-sm-9 prog" >
 								<div class="progress">
-	  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:80%;"></div>
+	  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" id="progressBar7"></div>
 								</div>
 							</div>
 						</div>
 						<!-- Github -->
 						<div class="col-md-6 row">
 							 <div class="col-sm-3">
-								<i class="fab fa-github" style="font-size: 60px;"></i>
+								<i class="fab fa-github"></i>
 							 </div>
 							<div class="col-sm-9 prog" >
 								<div class="progress">
-	  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:80%;"></div>
+	  								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" id="progressBar8"></div>
 								</div>
 							</div>
 						</div>
@@ -197,41 +210,41 @@
 					<div class="col-md-12 ">
 						<div class="col-md-12 text-center">
 							<!-- Additional to be updated -->
-							<i class="fas fa-code" style="font-size: 60px;"></i>
+							<i class="fas fa-code"></i>
 							<div class="col-md-7">
-								<p style="border-right: 6px solid green;height: 100px;"></p>
+								<p class="timeLine"></p>
 							</div>
 							<h3>TechChefs Software Pvt Ltd , Bangalore </h3>
-							<i class="fas fa-briefcase" style="font-size: 60px;"></i>
+							<i class="fas fa-briefcase"></i>
 							<p>Software Engineer || April-June 2017</p>
 							<div class="col-md-5">
-								<p style="border-right: 6px solid green;height: 100px;"></p>
+								<p class="timeLine"></p>
 							</div>
 							<h3>Royal Bank Of Scotland</h3>
-							<i class="fas fa-briefcase" style="font-size: 60px;"></i>
+							<i class="fas fa-briefcase"></i>
 							<p>Business Analyst || 2015-2017</p>
 						</div>
 						<div class="col-md-12 text-center">
 							<div class="col-md-7">
-								<p style="border-right: 6px solid green;height: 100px;"></p>
+								<p class="timeLine"></p>
 							</div>
 							<h3>SRM University, Masters</h3>
-							<i class="fas fa-user-graduate" style="font-size: 60px;"></i>
+							<i class="fas fa-user-graduate"></i>
 							<p>MCA || 2012-2015</p>
 							<div class="col-md-5">
-								<p style="border-right: 6px solid green;height: 100px;"></p>
+								<p class="timeLine"></p>
 							</div>
 							<h3>WBUT , Graduation</h3>
-							<i class="fas fa-graduation-cap" style="font-size: 60px;"></i>
+							<i class="fas fa-graduation-cap"></i>
 							<p>BCA || 2009-2012</p>
 						</div>
 
 						<div class="col-md-12 text-center">
 							<div class="col-md-7">
-								<p style="border-right: 6px solid green;height: 100px;"></p>
+								<p class="timeLine"></p>
 							</div>
 							<h2>Born</h2>
-							<i class="fas fa-child" style="font-size: 60px;"></i>
+							<i class="fas fa-child"></i>
 							 <p><i class="fas fa-cannabis"></i>1990<i class="fas fa-cannabis"></i></p>
 						</div>
 
@@ -248,10 +261,10 @@
 						 <div class="card ">
 						    <div class="card-body text-center">
 						      <p class="card-text ">
-						      	<i class=" card-img-top fab fa-java" style="font-size: 80px;"></i>
+						      	<i class=" card-img-top fab fa-java fab-projBig"></i>
 						      </p>
 						      <p class="card-text"> Online Banking Application
-						      	<i class="fab fa-github" style="font-size: 20px;"></i>
+						      	<i class="fab fa-github fab-projSmall"></i>
 						      	<div class="card-body">
 						      		<ul class="list-group list-group-flush">
 							      		<li class="list-group-item">Teck Stack</li>
@@ -269,7 +282,7 @@
 							      		</li>
 						      		</ul>
 						      		<a href="https://github.com/Subhrotechinfo/legendary-lamp">
-						      			<i class="fas fa-code-branch" style="font-size: 40px; padding-top: 20px;">
+						      			<i class="fas fa-code-branch">
 
 						      		 </i>
 						      		</a>
@@ -283,10 +296,10 @@
 						 <div class="card ">
 						    <div class="card-body text-center">
 						      <p class="card-text ">
-						      	<i class=" card-img-top fab fa-java" style="font-size: 80px;"></i>
+						      	<i class=" card-img-top fab fa-java fab-projBig"></i>
 						      </p>
 						      <p class="card-text"> EMS
-						      	<i class="fab fa-github" style="font-size: 20px;"></i>
+						      	<i class="fab fa-github fab-projSmall"></i>
 						      	<div class="card-body">
 						      		<ul class="list-group list-group-flush">
 							      		<li class="list-group-item">Teck Stack</li>
@@ -304,7 +317,7 @@
 							      		</li>
 						      		</ul>
 						      		<a href="https://github.com/Subhrotechinfo/EMS">
-						      			<i class="fas fa-code-branch" style="font-size: 40px; padding-top: 20px;">
+						      			<i class="fas fa-code-branch">
 
 						      		 </i>
 						      		</a>
@@ -318,10 +331,10 @@
 						 <div class="card ">
 						    <div class="card-body text-center">
 						      <p class="card-text ">
-						      	<i class=" card-img-top fab fa-html5" style="font-size: 80px;"></i>
+						      	<i class=" card-img-top fab fa-html5 fab-projBig"></i>
 						      </p>
 						      <p class="card-text"> Hotel Templete
-						      	<i class="fab fa-github" style="font-size: 20px;"></i>
+						      	<i class="fab fa-github fab-projSmall"></i>
 						      	<div class="card-body">
 						      		<ul class="list-group list-group-flush">
 							      		<li class="list-group-item">Teck Stack</li>
@@ -339,7 +352,7 @@
 							      		</li>
 						      		</ul>
 						      		<a href="https://github.com/Subhrotechinfo/hotelapp.github.io">
-						      			<i class="fas fa-code-branch" style="font-size: 40px; padding-top: 20px;">
+						      			<i class="fas fa-code-branch">
 
 						      		 </i>
 						      		</a>
@@ -353,10 +366,10 @@
 						 <div class="card ">
 						    <div class="card-body text-center">
 						      <p class="card-text ">
-						      	<i class=" card-img-top fab fa-node" style="font-size: 80px;"></i>
+						      	<i class=" card-img-top fab fa-node fab-projBig"></i>
 						      </p>
 						      <p class="card-text"> Hoakuka
-						      	<i class="fab fa-github" style="font-size: 20px;"></i>
+						      	<i class="fab fa-github fab-projSmall"></i>
 						      	<div class="card-body">
 						      		<ul class="list-group list-group-flush">
 							      		<li class="list-group-item">Teck Stack</li>
@@ -374,7 +387,7 @@
 							      		</li>
 						      		</ul>
 						      		<a href="https://github.com/Subhrotechinfo/Hoakuka">
-						      			<i class="fas fa-code-branch" style="font-size: 40px; padding-top: 20px;">
+						      			<i class="fas fa-code-branch">
 
 						      		 </i>
 						      		</a>
@@ -395,7 +408,7 @@
 							<h2>Mahalo</h2>	
 						</div>
 						<div class="col-sm-12 text-center">
-							<i class="fab fa-staylinked" style="font-size: 40px; "></i>	
+							<i class="fab fa-staylinked"></i>	
 						</div>
 							
 					</div>
@@ -403,17 +416,17 @@
 				<div class="col-sm-12 ">
 							<div class="row text-center">
 								<div class="col-sm-12" >
-									<a style="padding: 0 10px 0 10px; ">
-										<i class="fab fa-twitter" style="font-size: 40px;"></i>	
+									<a class="contactIcon" href="https://twitter.com/Subhro_rj">
+										<i class="fab fa-twitter fab-social"></i>	
 									</a>
-									<a style="padding: 0 10px 0 10px">
-										<i class="fab fa-github" style="font-size: 40px;"></i>	
+									<a class="contactIcon" href="https://github.com/Subhrotechinfo">
+										<i class="fab fa-github fab-social"></i>	
 									</a>
-									<a style="padding: 0 10px 0 10px">
-										<i class="fab fa-medium-m" style="font-size: 40px;"></i>	
+									<a class="contactIcon" href="https://medium.com/@subhro.techinfo_85281">
+										<i class="fab fa-medium-m fab-social"></i>	
 									</a>
-									<a style="padding: 0 10px 0 10px">
-										<i class="fab fa-linkedin-in" style="font-size: 40px;"></i>	
+									<a class="contactIcon" href="https://www.linkedin.com/in/subhrotechinfo/">
+										<i class="fab fa-linkedin-in fab-social"></i>	
 									</a>	
 								</div>		 
 							</div>	
