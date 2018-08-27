@@ -1,4 +1,28 @@
- .prog{
+#navControl{
+	 background-color: black;
+	 min-height: 40px;
+}
+
+#navControl .navbar-toggler{
+	font-size: 80%;
+	color: #737373;
+	border: 1px solid #4d3900;
+}
+#navControl .navbar-toggler:focus{
+	outline: none;
+}
+#navControl .navbar-brand{
+	padding: .8rem 0;
+}
+#navControl .navbar-nav .nav-item .nav-link{
+	color: #cc9600;
+	padding: 0 20px; 
+}
+#navControl .navbar-nav .nav-item .nav-link:hover{
+	 color: #f2f2f2;
+}
+
+.prog{
 			padding:20px 0 0 0 ;
 		}
 #landingHead{
@@ -7,24 +31,27 @@
     filter: grayscale(100%); 
 }
 .left {
-	color:white;
+	font-size:1.5vw;
+	color:#cc9600;
     position: absolute;
     top: 20%;
     left: 40%;
     transform: translate(-60%, -60%);
-    transition-delay: 2s;
 }
 .right{
+	font-size:1.5vw;
 	color:white;
 	position: absolute;
     bottom: 20px;
     right: 60px;
 }
 .middle{
+	font-size:1.10vw;
 	color:white;
 	position: absolute;
 	top: 260px;
-    right: 362px;
+    left: 60%;
+    
 }
 .fa-html5{
 	font-size: 60px;
