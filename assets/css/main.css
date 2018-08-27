@@ -23,13 +23,14 @@
 }
 
 .prog{
-			padding:20px 0 0 0 ;
-		}
+		padding:20px 0 0 0 ;
+	}
 #landingHead{
 	background-color: #000000;
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%); 
+    position: relative;
+    min-height: 680px; 
 }
+
 .left {
 	font-size:1.5vw;
 	color:#cc9600;
@@ -40,54 +41,76 @@
 }
 .right{
 	font-size:1.5vw;
-	color:white;
+	color:#cc9600;;
 	position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     right: 60px;
+
 }
 .middle{
 	font-size:1.10vw;
-	color:white;
+	color:#cc9600;
 	position: absolute;
-	top: 260px;
+	top: 290px;
     left: 60%;
-    
+    transform: translate(-30%, -80%);
 }
+.fa-chevron-circle-down{
+	font-size: 40px;
+	padding-top: 5vw;
+	color: #664b00;
+}
+
 .fa-html5{
 	font-size: 60px;
+	color:#806600;
 }
 .fa-css3-alt{
 	font-size: 30px;
+	color:#806600;
 }
 .fa-js{
 	font-size: 20px;
+	color:#806600;
 }
 .fa-angular{
 	font-size: 60px;
+	color:#806600;
 }
 .fa-java{
-	font-size: 60px;	
+	font-size: 60px;
+	color:#806600;	
 }
 .fa-python{
 	font-size: 60px;
+	color:#806600;	
 }
 .fa-node{
 	font-size: 60px;
+	color:#806600;
 }
 .fa-aws{
 	font-size: 60px;
+	color:#806600;
 }
 .fa-git{
 	font-size: 60px;
+	color:#806600;
 }
 .fa-github{
 	font-size: 60px;
+	color:#806600;
 }
 .fa-code{
 	font-size: 60px;
+	color:#bfbfbf;
 }
 .fa-briefcase,.fa-user-graduate,.fa-graduation-cap,.fa-child{
 	font-size: 60px;
+	color:#bfbfbf;
+}
+.fa-cannabis{
+	color:#bfbfbf;	
 }
 .fab-projBig{
 	font-size: 80px;
@@ -98,12 +121,20 @@
 .fa-code-branch{
 	font-size: 40px; 
 	padding-top: 20px;
+	color: #664b00; 
+}
+.fa-code-branch:hover{
+	color:#4d4d4d;
 }
 .fa-staylinked{
 	font-size: 40px;
+	padding-top:10px ;
+	padding-bottom: 10px;
+	color:#4d4d4d;
 }
 #progressBar1{
 	width:90%;
+
 }
 #progressBar2{
 	width:70%;
@@ -127,8 +158,9 @@
 	width:80%;
 }
 .timeLine{
-	border-right: 6px solid green;
+	border-right: 6px solid ;
 	height: 100px;
+	color: #664b00;
 }
 .contactIcon{
 	text-decoration: none;
@@ -137,4 +169,476 @@
 }
 .fab-social{
 	font-size: 40px;
+	color:#4d4d4d
+} 
+#aboutSection{
+	min-height: 49vw;
+	background-color: #ffffff; 
+}
+#aboutHeader{
+	color: #333333;
+	padding-top: 110px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+ 	text-align: center;
+}
+#aboutPara{
+
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 120px;
+	padding-right: 120px;
+	color: #595959;
+
+}
+.fa-quote-left{
+	font-size: 40px;
+	color: #e6e6e6;
+}
+.fa-quote-right{
+	font-size: 40px;
+	color: #e6e6e6;
+	padding-left: 70vw;
+}
+#skillSection{
+	min-height: 47vw;
+	background-color: #f2f2f2;
+}
+
+.skillContainer{
+	padding: 120px 0;
+}
+#skillHeader{
+	font-weight: 500;
+	color: #333333;	
+	padding-bottom: 20px;
+
+}
+#careerSection{
+	padding-top: 90px;
+
+}
+#careerHeader{
+	font-size: 45px;
+	font-weight: 500;
+	color: #333333;
+}
+	
+#careerInfoHeader {
+	font-family: 'Roboto Mono', monospace;
+	
+}
+#careerInfopara{
+	font-family: 'Roboto Mono', monospace;	
+	color: #808080;
+}
+#projectSection{
+	padding-top: 90px;
+	padding-bottom: 30px;	
+}
+#projHeader{
+	padding-top: 20px;
+	padding-bottom: 30px;
+
+}
+#view,.list-group-item{
+	font-family: 'Roboto Mono', monospace;
+} 
+.codeItem{
+	font-family: 'Roboto Mono', monospace;
+	color: #e6e6e6;
+}
+.card-text{
+	font-family: 'Roboto', sans-serif;
+}
+
+.line{
+	border-bottom: 6px solid ;
+	height: 100px;
+	color:  #595959;
+}
+#contactSection{
+	height: 20vw; 
+	background-color:#f2f2f2;
+}
+
+#contactHead{
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	color:#4d4d4d; 
+}
+#footerSection{
+	height: 100px; 
+	padding-top: 20px;
+	background-color: black;
+}
+#footerText,.fa-creative-commons{
+	color:#cc9600; 
+} 
+
+@media screen and (min-width: 768px){
+
+	#landingHead{
+		min-height: 500px;
+	}
+	#navControl{
+		max-height: 5px;		
+	}
+	#navControl .navbar-toggler{
+		font-size: 20%;
+		color: #737373;
+	}
+	#navControl .navbar-toggler:focus{
+	outline: none;
+	}	
+	#navControl .navbar-brand{
+	padding: .0.1rem 0;
+	}
+	#navControl .navbar-nav .nav-item .nav-link:hover{
+	 color: #f2f2f2;
+	}
+	.left {
+		font-size:1.5vw;
+	    position: absolute;
+	    top: 20%;
+	    left: 40%;
+	    transform: translate(-60%, -60%);
+	}	
+	.middle{
+		font-size:1.5vw;
+		position: absolute;
+		top: 290px;
+	    left: 70%;
+	    transform: translate(-30%, -80%);
+	}
+	.right{
+		font-size:1.5vw;
+		position: absolute;
+	    bottom: 70px;
+	    right: 60px;
+
+	}
+	.fa-chevron-circle-down{
+		font-size: 20px;
+		padding-top: 1vw;
+		 
+	}
+	#aboutSection{
+		min-height: 49vw;
+		background-color: #ffffff; 
+	}
+	#aboutHeader{
+		padding-top: 110px;
+		padding-left: 20px;
+		padding-bottom: 30px;
+		font-family: 'Roboto', sans-serif;
+	 	text-align: center;
+	 	font-size: 20px;
+	}	
+	#aboutPara{
+		font-size: 15px;
+		font-weight: 500;
+		font-family: 'Roboto', sans-serif;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#skillHeader{
+		font-size: 25px;
+		font-weight: 200;	
+		padding-bottom: 20px;
+
+	}
+	.fa-html5,.fa-angular,.fa-java,.fa-python,.fa-node,.fa-git,.fa-github,.fa-aws{
+		font-size: 30px;
+		
+	}	 		
+	.fa-css3-alt{
+		font-size: 25px;
+	}
+	.fa-js{
+		font-size: 20px;
+	}
+	.progress{
+		max-width: 20vw;
+		max-height: 5vw;
+		padding-left: 20px;
+
+	}
+	#careerHeader{
+		font-size: 30px;
+		font-weight: 500;
+	}
+	.fa-code,.fa-briefcase,.fa-user-graduate,.fa-graduation-cap,.fa-child{
+		font-size: 40px;
+		padding-bottom: 10px;
+	}	 
+	#careerInfoHeader{
+		font-size: 20px;
+	}
+	.timeLine{
+		height: 80px;
+	}
+	#careerInfopara{
+		font-size: 10px;	
+	}
+	#contactSection{
+		min-height: 20vw;
+	}
+	#contactHead{
+		font-size: 20px;	
+	}
+	.fab-social,.fa-staylinked{
+		font-size: 20px;	
+	}
+	#footerText{
+		font-size: 12px;	
+	}
+	.card{
+		font-size: 15px;
+	} 
+	.card-body{
+		 
+		max-width: 70vw;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+
+	#landingHead{
+		min-height: 500px;
+	}
+	#navControl{
+		max-height: 5px;		
+	}
+	#navControl .navbar-toggler{
+		font-size: 20%;
+	}
+	#navControl .navbar-toggler:focus{
+	outline: none;
+	}	
+	#navControl .navbar-brand{
+	padding: .0.1rem 0;
+	}
+	.left {
+		font-size:1.75vw;
+	    position: absolute;
+	    top: 20%;
+	    left: 35%;
+	    transform: translate(-60%, -60%);
+	}	
+	.middle{
+		font-size:1.5vw;
+		position: absolute;
+		top: 290px;
+	    left: 70%;
+	    transform: translate(-30%, -80%);
+	}
+	.right{
+		font-size:1.5vw;
+		position: absolute;
+	    bottom: 30px;
+	    right: 60px;
+
+	}
+	.fa-chevron-circle-down{
+		font-size: 20px;
+		padding-top: 1vw;
+		 
+	}
+	#aboutSection{
+		min-height: 49vw;
+		background-color: #ffffff; 
+	}
+	#aboutHeader{
+		padding-top: 110px;
+		padding-left: 20px;
+		padding-bottom: 30px;
+		font-family: 'Roboto', sans-serif;
+	 	text-align: center;
+	 	font-size: 20px;
+	}	
+	#aboutPara{
+		font-size: 15px;
+		font-weight: 500;
+		font-family: 'Roboto', sans-serif;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#skillHeader{
+		font-size: 25px;
+		font-weight: 200;	
+		padding-bottom: 20px;
+
+	}
+	.fa-html5,.fa-angular,.fa-java,.fa-python,.fa-node,.fa-git,.fa-github,.fa-aws{
+		font-size: 30px;
+		
+	}	 		
+	.fa-css3-alt{
+		font-size: 25px;
+	}
+	.fa-js{
+		font-size: 20px;
+	}
+	.progress{
+		max-width: 20vw;
+		max-height: 5vw;
+		padding-left: 20px;
+
+	}
+	#careerHeader{
+		font-size: 30px;
+		font-weight: 500;
+	}
+	.fa-code,.fa-briefcase,.fa-user-graduate,.fa-graduation-cap,.fa-child{
+		font-size: 40px;
+		padding-bottom: 10px;
+	}	 
+	#careerInfoHeader{
+		font-size: 20px;
+	}
+	.timeLine{
+		height: 80px;
+	}
+	#careerInfopara{
+		font-size: 10px;	
+	}
+	#contactSection{
+		min-height: 30vw;
+	}
+	#contactHead{
+		font-size: 20px;	
+	}
+	.fab-social,.fa-staylinked{
+		font-size: 20px;	
+	}
+	#footerSection{
+		max-height: 20vw;
+	}
+	#footerText{
+		font-size: 1.75vw;	
+	}
+	  
+	
+}
+
+@media screen and (max-width: 480px){
+
+	#landingHead{
+		min-height: 500px;
+	}
+	#navControl{
+		max-height: 5px;		
+	}
+	#navControl .navbar-toggler{
+		font-size: 20%;
+		color: #737373;
+	}
+	#navControl .navbar-toggler:focus{
+	outline: none;
+	}	
+	#navControl .navbar-brand{
+	padding: .0.1rem 0;
+	}
+	#navControl .navbar-nav .nav-item .nav-link:hover{
+	 color: #f2f2f2;
+	}
+	.left {
+		font-size:3vw;
+	    position: absolute;
+	    top: 20%;
+	    left: 70%;
+	    transform: translate(-60%, -60%);
+	}	
+	.middle{
+		font-size:2.5vw;
+		position: absolute;
+		top: 290px;
+	    left: 20%;
+	    transform: translate(-30%, -80%);
+	}
+	.right{
+		font-size:2.5vw;
+		position: absolute;
+	    bottom: 70px;
+	    right: 60px;
+
+	}
+	.fa-chevron-circle-down{
+		font-size: 20px;
+		padding-top: 1vw;
+		 
+	}
+	#aboutSection{
+		min-height: 49vw;
+		background-color: #ffffff; 
+	}
+	#aboutHeader{
+		padding-top: 110px;
+		padding-left: 20px;
+		padding-bottom: 30px;
+		font-family: 'Roboto', sans-serif;
+	 	text-align: center;
+	 	font-size: 20px;
+	}	
+	#aboutPara{
+		font-size: 15px;
+		font-weight: 500;
+		font-family: 'Roboto', sans-serif;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#skillHeader{
+		font-size: 25px;
+		font-weight: 200;	
+		padding-bottom: 20px;
+
+	}
+	.fa-html5,.fa-angular,.fa-java,.fa-python,.fa-node,.fa-git,.fa-github,.fa-aws{
+		font-size: 30px;
+		
+	}	 		
+	.fa-css3-alt{
+		font-size: 25px;
+	}
+	.fa-js{
+		font-size: 20px;
+	}
+	.progress{
+		max-width: 20vw;
+		max-height: 5vw;
+		padding-left: 20px;
+
+	}
+	#careerHeader{
+		font-size: 30px;
+		font-weight: 500;
+	}
+	.fa-code,.fa-briefcase,.fa-user-graduate,.fa-graduation-cap,.fa-child{
+		font-size: 40px;
+		padding-bottom: 10px;
+	}	 
+	#careerInfoHeader{
+		font-size: 20px;
+	}
+	.timeLine{
+		height: 80px;
+	}
+	#careerInfopara{
+		font-size: 10px;	
+	}
+	#contactSection{
+		min-height: 50vw;
+	}
+	#contactHead{
+		font-size: 20px;	
+	}
+	.fab-social,.fa-staylinked{
+		font-size: 20px;	
+	}
+	#footerText{
+		font-size: 7px;	
+	} 
 }

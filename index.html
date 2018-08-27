@@ -21,6 +21,9 @@
 	<!-- for fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -29,9 +32,7 @@
 	
 	<link rel="stylesheet" href="assets/css/main.css">
 
-	<style type="text/css">
-		
-	</style>
+	 
 </head>
 <body style="font-family:'Nunito Sans', sans-serif;">
 
@@ -49,19 +50,19 @@
 				<div class="collapse navbar-collapse" id="navBarItems">
 					<ul class="navbar-nav navbar-right">
 						<li class="nav-item">
-							<a class="nav-link" href="">About</a>
+							<a class="nav-link" href="#aboutSection">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Skills</a>
+							<a class="nav-link" href="#skillSection">Skills</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Career</a>
+							<a class="nav-link" href="#careerSection">Career</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Project</a>
+							<a class="nav-link" href="#projectSection">Project</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Contact</a>
+							<a class="nav-link" href="#contactSection">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -72,18 +73,17 @@
 				 <canvas id="arrow" width="1080" height="650"></canvas> -->
 				 <div>
 				 	<p class="left">Hello Universe</p>
-				 	 
 				 </div>
-				 <div class="middle">
-				 	I'm a Full Stack Software Engineer.
+				 <div >
+				 	<p class="middle">I'm a Full Stack Software Engineer.</p>
 				 </div>
 				 <div class="right">
 				 	Subhro Chatterjee
 				 </div>
 				 <img src="assets/images/edit2.jpg" class="img-fluid mx-auto d-block" alt="" height="500" width="300">
 				 <div class="text-center" style="padding: 40 0 20 0">
-				 	<a href="">
-				 		<i class="fas fa-chevron-circle-down" style="font-size: 40px;"></i>	
+				 	<a href="#aboutSection">
+				 		<i class="fas fa-chevron-circle-down"></i>	
 				 	</a>
 				 		
 				 </div>
@@ -92,16 +92,16 @@
 
  			<!-- About Section	  -->
 			<div class="container" id="aboutSection">
-				<h1>About</h1>
-				<h2>Let me introduce myself.</h2>
-				<img src="" alt="">
-				<p>In the starting of his career Subhro Chatterjee started working in Royal Bank Of Scotland as a Business Analyst. While his stay in RBS he has served in two geographic locations (Chennai & Delhi) where he worked as a Senior member of the team with the Application support team providing services to the internal customers within the bank. </p>
-				<p>While working in Royal Bank Of Scotland , he realised that work fills most the parts of our life so he decided to find his passion. </p>
-				<p>And it took him where he is due to passion. </p>
+				<h1 id="aboutHeader">Let me introduce myself.</h1>
+				<i class="fas fa-quote-left" ></i>
+				<p id="aboutPara">In the starting of his career Subhro Chatterjee started working in Royal Bank Of Scotland as a Business Analyst. While his stay in RBS he has served in two geographic locations (Chennai & Delhi) where he worked as a Senior member of the team with the Application support team providing services to the internal customers within the bank.
+				While working in Royal Bank Of Scotland , he realised that work fills most the parts of our life so he decided to find his passion. And it took him where he is today.</p>
+				<i class="fas fa-quote-right"></i>
 			</div>
 			<!-- skill section -->
-			<div class="container" id="skillSection">
-				<h2>Skills</h2>
+			<div class="container-fluid" id="skillSection">
+				<div class="container skillContainer">
+					<h1 id="skillHeader">Skills</h1>
 				<div class="row">
 					<div class="col-md-6 row">
 						<!-- Html5/CSS3/Javascript -->
@@ -174,7 +174,7 @@
 
 				</div>	<!-- Skill End -->
 				<div>
-					<h2>Version control</h2>
+					<h2 id="skillHeader">Version control</h2>
 					<div class="row">
 						<!-- Git -->
 						<div class="col-md-6 row">
@@ -199,12 +199,14 @@
 							</div>
 						</div>
 					</div>
-				</div>	<!-- Version Control  -->
+				</div>	<!-- Version Control  -->	
+				</div>
+				
 			</div><!-- Skill Section -->
 
 			<!-- Experience -->
-			<div class="container">
-				<h2>Career</h2>
+			<div class="container" id="careerSection">
+				<h2 id="careerHeader">Career</h2>
 				<div class="row">
 					<div class="col-md-12 ">
 						<div class="col-md-12 text-center">
@@ -213,51 +215,61 @@
 							<div class="col-md-7">
 								<p class="timeLine"></p>
 							</div>
-							<h3>TechChefs Software Pvt Ltd , Bangalore </h3>
+							<h3 id="careerInfoHeader">TechChefs Software Pvt Ltd , Bangalore </h3>
 							<i class="fas fa-briefcase"></i>
-							<p>Software Engineer || April-June 2017</p>
+							<p id="careerInfopara">Software Engineer || April-June 2017</p>
 							<div class="col-md-5">
 								<p class="timeLine"></p>
 							</div>
-							<h3>Royal Bank Of Scotland</h3>
+							<h3 id="careerInfoHeader">Royal Bank Of Scotland</h3>
 							<i class="fas fa-briefcase"></i>
-							<p>Business Analyst || 2015-2017</p>
+							<p id="careerInfopara">Business Analyst || 2015-2017</p>
 						</div>
 						<div class="col-md-12 text-center">
 							<div class="col-md-7">
 								<p class="timeLine"></p>
 							</div>
-							<h3>SRM University, Masters</h3>
+							<h3 id="careerInfoHeader">SRM University, Masters</h3>
 							<i class="fas fa-user-graduate"></i>
-							<p>MCA || 2012-2015</p>
+							<p id="careerInfopara">MCA || 2012-2015</p>
 							<div class="col-md-5">
 								<p class="timeLine"></p>
 							</div>
-							<h3>WBUT , Graduation</h3>
+							<h3 id="careerInfoHeader">WBUT, Graduation</h3>
 							<i class="fas fa-graduation-cap"></i>
-							<p>BCA || 2009-2012</p>
+							<p id="careerInfopara">BCA || 2009-2012</p>
 						</div>
 
 						<div class="col-md-12 text-center">
 							<div class="col-md-7">
 								<p class="timeLine"></p>
 							</div>
-							<h2>Born</h2>
+							<h3 id="careerInfoHeader">Born</h3>
 							<i class="fas fa-child"></i>
-							 <p><i class="fas fa-cannabis"></i>1990<i class="fas fa-cannabis"></i></p>
+							 <p id="careerInfopara"><i class="fas fa-cannabis"></i>1990<i class="fas fa-cannabis"></i></p>
 						</div>
 
 					</div>
 
 				</div>
 			</div>
+							<!-- Line break -->
+							<div class="col-sm-12 text-center">
+								<div class="row">
+									<div class="col-sm-5">	
+									</div>
+									<div class="col-sm-2">
+										<p class="line"></p>	
+									</div>	
+								</div>	
+							</div>
 
 			<!-- Project section -->
-			<div class="container-fluid">
-				<h2>Projects</h2>
+			<div class="container-fluid" id="projectSection">
+				<h2 id="projHeader">Projects</h2>
 				<div class="container col-md-12 row card-deck">
 					<div class="col-md-3">
-						 <div class="card ">
+						 <div class="card">
 						    <div class="card-body text-center">
 						      <p class="card-text ">
 						      	<i class=" card-img-top fab fa-java fab-projBig"></i>
@@ -268,16 +280,16 @@
 						      		<ul class="list-group list-group-flush">
 							      		<li class="list-group-item">Teck Stack</li>
 							      		<li class="list-group-item">
-							      			<span class="badge badge-primary badge-pill">Jsp</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Jsp</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Java</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Java</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">J2EE</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">J2EE</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Mysql</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Mysql</span>
 							      		</li>
 						      		</ul>
 						      		<a href="https://github.com/Subhrotechinfo/legendary-lamp">
@@ -285,7 +297,7 @@
 
 						      		 </i>
 						      		</a>
-						      		 <p>View Source code</p>
+						      		 <p id="view">View Source code</p>
 						      	</div>
 						      </p>
 						    </div>
@@ -303,16 +315,16 @@
 						      		<ul class="list-group list-group-flush">
 							      		<li class="list-group-item">Teck Stack</li>
 							      		<li class="list-group-item">
-							      			<span class="badge badge-primary badge-pill">Html5,Css3</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Html5,Css3</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Java</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Java</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Spring Framework</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Spring Framework</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Postgresql</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Postgresql</span>
 							      		</li>
 						      		</ul>
 						      		<a href="https://github.com/Subhrotechinfo/EMS">
@@ -320,7 +332,7 @@
 
 						      		 </i>
 						      		</a>
-						      		 <p>View Source code</p>
+						      		 <p id="view">View Source code</p>
 						      	</div>
 						      </p>
 						    </div>
@@ -338,24 +350,23 @@
 						      		<ul class="list-group list-group-flush">
 							      		<li class="list-group-item">Teck Stack</li>
 							      		<li class="list-group-item">
-							      			<span class="badge badge-primary badge-pill">Html5</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Html5</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Css3</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Css3</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Bootstrap3</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Bootstrap3</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Design Template</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Design Template</span>
 							      		</li>
 						      		</ul>
 						      		<a href="https://github.com/Subhrotechinfo/hotelapp.github.io">
 						      			<i class="fas fa-code-branch">
-
 						      		 </i>
 						      		</a>
-						      		 <p>View Source code</p>
+						      		 <p id="view">View Source code</p>
 						      	</div>
 						      </p>
 						    </div>
@@ -373,16 +384,16 @@
 						      		<ul class="list-group list-group-flush">
 							      		<li class="list-group-item">Teck Stack</li>
 							      		<li class="list-group-item">
-							      			<span class="badge badge-primary badge-pill">NodeJS</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">NodeJS</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Express</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Express</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Mongodb</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Mongodb</span>
 							      		</li>
 							      		<li class="list-group-item ">
-							      			<span class="badge badge-primary badge-pill">Heroku</span>
+							      			<span class="badge badge-secondary badge-pill codeItem">Heroku</span>
 							      		</li>
 						      		</ul>
 						      		<a href="https://github.com/Subhrotechinfo/Hoakuka">
@@ -390,7 +401,7 @@
 
 						      		 </i>
 						      		</a>
-						      		 <p>View Source code</p>
+						      		 <p id="view">View Source code</p>
 						      	</div>
 						      </p>
 						    </div>
@@ -398,13 +409,13 @@
 					</div>
 				</div><!-- Project Display container -->
 			</div><!-- Project div -->
-<br>
+
 			<!-- Contact Section -->
-			<div class="container-fluid" style="height: 300px; background-color: grey;">
+			<div class="container-fluid" id="contactSection">
 				<div class="col-sm-12">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2>Mahalo</h2>	
+							<h2 id="contactHead">Mahalo</h2>	
 						</div>
 						<div class="col-sm-12 text-center">
 							<i class="fab fa-staylinked"></i>	
@@ -412,14 +423,14 @@
 							
 					</div>
 				</div>
-				<div class="col-sm-12 ">
+				<div class="col-sm-12">
 							<div class="row text-center">
 								<div class="col-sm-12" >
 									<a class="contactIcon" href="https://twitter.com/Subhro_rj">
 										<i class="fab fa-twitter fab-social"></i>	
 									</a>
 									<a class="contactIcon" href="https://github.com/Subhrotechinfo">
-										<i class="fab fa-github fab-social"></i>	
+										<i class="fab fa-github fab-social fabContact" style="color:#4d4d4d;"></i>	
 									</a>
 									<a class="contactIcon" href="https://medium.com/@subhro.techinfo_85281">
 										<i class="fab fa-medium-m fab-social"></i>	
@@ -433,24 +444,27 @@
 			</div>
 			<!-- Footer -->
 
-			<div class="container-fluid" style="height: 100px; padding-top: 20px;">
+			<div class="container-fluid" id="footerSection">
 					<footer>
 						<div class="col-sm-12">
 							<div class="row">
 								<div class="col-sm-4">
-									<p>
+									<p id="footerText">
 										Made with <i class="fas fa-heart"></i>. 
 										<i class="fas fa-hashtag"></i>GracefulLife
 									</p>
 								</div>
 								<div class="col-sm-4 text-center">
-									<p>Subhro Chatterjee <i class="fas fa-copyright"></i> 2018.</p> 
+									<p id="footerText">Subhro Chatterjee <i class="fas fa-copyright"></i> 2018.</p> 
 								</div>
 								<div class="col-sm-4 text-right">
-									Licensed under
-									 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"> 
-									 	<i class="fab fa-creative-commons"></i>
-									 </a>.
+									<p id="footerText">
+										Licensed under
+										 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"> 
+										 	<i class="fab fa-creative-commons"></i>
+										 </a>.	
+									</p>
+									
 								</div>
 							</div>							
 						</div>
