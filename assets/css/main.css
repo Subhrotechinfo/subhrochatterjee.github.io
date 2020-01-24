@@ -324,8 +324,7 @@
 	}
 	.fa-chevron-circle-down{
 		font-size: 20px;
-		padding-top: 1vw;
-		 
+		padding-top: 1vw;		 
 	}
 	#aboutSection{
 		min-height: 49vw;
@@ -371,6 +370,9 @@
 	#careerHeader{
 		font-size: 30px;
 		font-weight: 500;
+	}
+	#projectSection,#projHeader,.card-deck{
+		font-size: 18px;
 	}
 	.fa-code,.fa-briefcase,.fa-user-graduate,.fa-graduation-cap,.fa-child{
 		font-size: 40px;
@@ -493,18 +495,21 @@
 
 	}
 	#careerHeader{
-		font-size: 30px;
+		font-size: 20px;
 		font-weight: 500;
+	}
+	#projectSection,#projHeader,.card-deck{
+		font-size: 15px;
 	}
 	.fa-code,.fa-briefcase,.fa-user-graduate,.fa-graduation-cap,.fa-child{
 		font-size: 40px;
 		padding-bottom: 10px;
 	}	 
 	#careerInfoHeader{
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.timeLine{
-		height: 80px;
+		height: 30px;
 	}
 	#careerInfopara{
 		font-size: 10px;	
