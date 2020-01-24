@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<link>
 
 	<meta charset="utf-8">
 
@@ -11,7 +11,7 @@
 	<title>Subhro Chatterjee</title>
 	<!-- favicon  -->
 	<link rel="icon" href="assets/images/logo.jpg" type="image/jpg" sizes="16x16">
-	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
@@ -28,7 +28,6 @@
 	
 	<link rel="stylesheet" href="assets/css/main.css">
 
-
 </head>
 <body style="font-family:'Nunito Sans', sans-serif;">
 
@@ -43,14 +42,13 @@
 						<i class="fas fa-bars"></i>
 					</button>
 					
-
 				<div  class="collapse navbar-collapse" id="navBarItems">
 					<ul class="navbar-nav navbar-right">
 						<li class="nav-item">
 							<a class="nav-link" href="#aboutSection">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#skillSection">Skills</a>
+							<a class="nav-link" href="#skillSection" id="#skillSection">Skills</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#careerSection">Career</a>
@@ -64,6 +62,25 @@
 					</ul>
 				</div>
 			</nav>
+			<!-- Script to hide navbar collapse  -->
+			<script>
+				$(function() {
+					$(document).click(function (event) {
+						$('.navbar-collapse').collapse('hide');
+					});
+					// Scroll Smooth
+					$("a[href^='#']").click(function(e) {
+						e.preventDefault();
+						
+						var position = $($(this).attr("href")).offset().top;
+
+						$("body, html").animate({
+							scrollTop: position
+						}, 1000 );
+					});
+				});
+
+			</script>
 			<!-- landing page  -->
 			<div class="container-fluid " id="landingHead">
 				 <div>
@@ -80,13 +97,11 @@
 				 	<a href="#aboutSection">
 				 		<i class="fas fa-chevron-circle-down"></i>
 				 	</a>
-
 				 </div>
-
 			</div>
-
+		
  			<!-- About Section	  -->
-			<div class="container" id="aboutSection">
+			<div class="container anchor-scroll" data-class-to="body" id="aboutSection">
 				<h1 id="aboutHeader">Let me introduce myself.</h1>
 				<i class="fas fa-quote-left" ></i>
 				<p id="aboutPara">In the starting of his career Subhro Chatterjee started working in Royal Bank Of Scotland as a Business Analyst. While his stay in RBS he has served in two geographic locations (Chennai & Delhi) where he worked as a Senior member of the team with the Application support team providing services to the internal customers within the bank.
