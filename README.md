@@ -6,7 +6,7 @@ Built with **Next.js 14** + **Tailwind CSS** + **TypeScript**.
 
 ```bash
 # 1. Install dependencies
-npm install
+npm install.
 
 # 2. Run dev server
 npm run dev
