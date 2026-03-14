@@ -1,12 +1,14 @@
 # Subhro Chatterjee — Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2e6ba169-6720-452c-b9f9-3a8b25345a81/deploy-status)](https://app.netlify.com/projects/subhrochatterjee/deploys)
+
 Built with **Next.js 14** + **Tailwind CSS** + **TypeScript**.
 
 ## 🚀 Getting Started
 
 ```bash
 # 1. Install dependencies
-npm install.
+npm install
 
 # 2. Run dev server
 npm run dev
