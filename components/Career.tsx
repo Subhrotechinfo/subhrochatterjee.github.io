@@ -11,7 +11,7 @@ const timeline = [
     current: true,
   },
   {
-    period: "Jan 2024 – June 2025",
+    period: "Jan 2025 – June 2025",
     role: "Lead - Technology",
     company: "Synechron Technologies Pvt. Ltd",
     type: "work",
