@@ -4,20 +4,20 @@ import { useEffect, useRef } from "react";
 const projects = [
   {
     num: "01",
-    name: "Online Banking Application",
+    name: "Ecommerce Platform",
     description:
-      "Full-featured online banking system with secure transactions, account management, and real-time balance updates.",
-    stack: ["JSP", "Java", "J2EE", "MySQL"],
-    link: "#",
+      "Full-featured Ecommerce Application.",
+    stack: ["Nodejs", "Reactjs", "MongoDB", "AWS"],
+    link: "https://tlsfe.vercel.app/",
     accent: "accent",
   },
   {
     num: "02",
-    name: "EMS — Employee Mgmt System",
+    name: "Reactjs&Automation",
     description:
-      "Enterprise-grade employee management system with role-based access, attendance tracking, and reporting.",
-    stack: ["HTML5", "CSS3", "Java", "Spring", "PostgreSQL"],
-    link: "#",
+      "An Example of Fullstack application with Automation Testing",
+    stack: ["Nodejs", "Reactjs","Playwright",Cucumber],
+    link: "https://github.com/Subhrotechinfo/reactjs-automation-playwright",
     accent: "accent2",
   },
   {
@@ -29,15 +29,7 @@ const projects = [
     link: "#",
     accent: "accent",
   },
-  {
-    num: "04",
-    name: "Hoakuka",
-    description:
-      "Full-stack Node.js web application deployed on Heroku with MongoDB backend and RESTful API design.",
-    stack: ["NodeJS", "Express", "MongoDB", "Heroku"],
-    link: "#",
-    accent: "accent2",
-  },
+ 
 ];
 
 export default function Projects() {
