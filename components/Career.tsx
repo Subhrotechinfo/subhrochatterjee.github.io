@@ -5,8 +5,9 @@ const timeline = [
   {
     period: "July 2025 — Present",
     role: "Lead - Technology",
-    company: "Current Company",
+    company: "Upworks",
     type: "work",
+    location: "Remote, India",
     current: true,
   },
   {
