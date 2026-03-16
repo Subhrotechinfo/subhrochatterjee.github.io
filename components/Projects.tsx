@@ -16,7 +16,7 @@ const projects = [
     name: "Reactjs&Automation",
     description:
       "An Example of Fullstack application with Automation Testing",
-    stack: ["Nodejs", "Reactjs","Playwright",Cucumber],
+    stack: ["Nodejs", "Reactjs","Playwright","Cucumber"],
     link: "https://github.com/Subhrotechinfo/reactjs-automation-playwright",
     accent: "accent2",
   },
